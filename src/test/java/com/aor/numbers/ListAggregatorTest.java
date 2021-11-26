@@ -42,6 +42,7 @@ public class ListAggregatorTest {
         Assertions.assertEquals(-1, max);
     }
 
+    /*
     @Test
     public void distinct() {
         class StubListDeduplicator implements GenericListDeduplicator{
@@ -79,6 +80,7 @@ public class ListAggregatorTest {
 
         int distinct = aggregator.distinct(Arrays.asList(1,2,4,2), deduplicator);
     }
+    */
     @BeforeEach
     public void helper(){
         list = Arrays.asList(1,2,4,2,5);
