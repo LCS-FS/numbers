@@ -92,21 +92,21 @@
 <a name='org.pitest.mutationtest.report.html.SourceFile@51bf5add_6'/>
 6
 </td>
-<td class='survived'>
+<td class='killed'>
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51bf5add_6'>3</a>
 <span>
 
-1. accept : changed conditional boundary &rarr; SURVIVED<br/>
+1. accept : replaced boolean return with false for com/aor/numbers/PositiveFilter::accept &rarr; KILLED<br/>
 
-2. accept : replaced boolean return with false for com/aor/numbers/PositiveFilter::accept &rarr; KILLED<br/>
+2. accept : changed conditional boundary &rarr; KILLED<br/>
 
 3. accept : negated conditional &rarr; KILLED<br/>
 
 </span>
 </span>
 </td>
-<td class='covered'><pre><span  class='survived'>        if(number &#62; 0) return true;</span></pre></td></tr>
+<td class='covered'><pre><span  class='killed'>        if(number &#62; 0) return true;</span></pre></td></tr>
 
 
 <tr>
@@ -168,7 +168,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@51bf5add_6'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()]</span></span> replaced boolean return with false for com/aor/numbers/PositiveFilter::accept &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()]</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()]</span></span> replaced boolean return with false for com/aor/numbers/PositiveFilter::accept &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>accept<br/><b>Killed by : </b>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()]</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 
@@ -215,7 +215,7 @@
 
 <h2>Tests examined</h2>
 <ul>
-<li>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()] (1 ms)</li><li>com.aor.numbers.DivideByTest.[engine:junit-jupiter]/[class:com.aor.numbers.DivideByTest]/[method:div_by_test()] (8 ms)</li>
+<li>com.aor.numbers.PositiveFilterTest.[engine:junit-jupiter]/[class:com.aor.numbers.PositiveFilterTest]/[method:pos_fil_test()] (2 ms)</li><li>com.aor.numbers.DivideByTest.[engine:junit-jupiter]/[class:com.aor.numbers.DivideByTest]/[method:div_by_test()] (7 ms)</li>
 </ul>
 
 <br/>
