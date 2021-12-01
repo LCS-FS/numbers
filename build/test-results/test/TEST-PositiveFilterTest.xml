@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PositiveFilterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-01T15:32:29" hostname="DESKTOP-L6V6LBB" time="0.143">
+  <properties/>
+  <testcase name="pos filter test groovy" classname="PositiveFilterTest" time="0.143"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

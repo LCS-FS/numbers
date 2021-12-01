@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ListSorterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-01T15:27:41" hostname="DESKTOP-L6V6LBB" time="0.177">
-  <properties/>
-  <testcase name="sort groovy" classname="ListSorterTest" time="0.177"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
